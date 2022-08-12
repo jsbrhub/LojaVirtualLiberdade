@@ -1,0 +1,5 @@
+[
+    {"id": "1", "descricao": "camisa", "categoria": "roupa", "valor": "100.00", "quantidade": "8"},
+    {"id": "1", "descricao": "relogio", "categoria": "acessorio", "valor": "150.00", "quantidade": "15"},
+    {"id": "1", "descricao": "relogio", "categoria": "", "valor": "150.00", "quantidade": "15"}
+]
