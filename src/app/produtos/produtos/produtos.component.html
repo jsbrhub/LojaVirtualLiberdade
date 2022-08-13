@@ -2,7 +2,7 @@
     <mat-toolbar color="primary">
       <span>Estoque</span>
     </mat-toolbar>
-    <div *ngIf="produtos | async as produtos; else loading">
+    <div *ngIf="produtos">
       <table mat-table [dataSource]="produtos" class="mat-elevation-z8">
         <ng-container matColumnDef="descricao">
           <th mat-header-cell *matHeaderCellDef>Descrição</th>

@@ -11,14 +11,13 @@ export class ProdutosComponent implements OnInit {
 
   produtos: Produtos[] = [];
   displayedColumns = ['descricao','categoria','valor','quantidade'];
-  produtosService: ProdutosServicesService;
    
-  constructor() { 
-      this.produtosService = new ProdutosServicesService;
-      // this.produtos = this.produtosService.list();
+  constructor(private produtoService: ProdutosServicesService) { 
+     
   }
 
   ngOnInit(): void {
+    this.produtos = this.produtoService.list();
   }
 
 }

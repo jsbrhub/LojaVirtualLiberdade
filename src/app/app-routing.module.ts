@@ -6,7 +6,7 @@ const routes: Routes = [
   {path:'',pathMatch:'full', redirectTo:'produtos'},
   {
     path: 'produtos',
-    loadChildren: () => import('./produtos/itens/itens.component').then(m => ProdutosModule)
+    loadChildren: () => import('./produtos/produtos/produtos.component').then(m => ProdutosModule)
   }
 ];
 
