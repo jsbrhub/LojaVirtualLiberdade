@@ -3,11 +3,11 @@ import { Produtos } from '../model/produtos';
 import { ProdutosServicesService } from '../services/produtos-services.service';
 
 @Component({
-  selector: 'app-produtos',
-  templateUrl: './produtos.component.html',
-  styleUrls: ['./produtos.component.scss']
+  selector: 'app-cadastro-produtos',
+  templateUrl: './cadastro-produtos.component.html',
+  styleUrls: ['./cadastro-produtos.component.scss']
 })
-export class ProdutosComponent implements OnInit {
+export class CadastroProdutosComponent implements OnInit {
 
   produtos: Produtos[] = [];
   displayedColumns = ['descricao','categoria','valor','quantidade'];
