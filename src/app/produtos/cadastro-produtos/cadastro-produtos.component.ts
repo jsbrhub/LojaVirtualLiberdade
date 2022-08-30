@@ -10,7 +10,7 @@ import { ProdutosServicesService } from '../services/produtos-services.service';
 export class CadastroProdutosComponent implements OnInit {
 
   produtos: Produtos[] = [];
-  displayedColumns = ['descricao','categoria','valor','quantidade'];
+  displayedColumns = ['descricao','categoria','valor','quantidade','acoes'];
    
   constructor(private produtoService: ProdutosServicesService) { 
      
