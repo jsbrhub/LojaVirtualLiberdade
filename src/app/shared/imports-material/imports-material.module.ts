@@ -20,7 +20,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatMenuModule,
     MatIconModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ],
 
 })

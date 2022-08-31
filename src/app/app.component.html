@@ -1,4 +1,25 @@
-<mat-toolbar color="primary">
-  <span>Loja Liberdade</span>
-</mat-toolbar>
+<div class="mdc-layout-grid" color="primary">
+  <p>
+    <mat-toolbar  color="primary" class="menuHeader">
+      <button mat-icon-button class="butaoMenu" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="space">Liberdade</span>
+      <span class="example-spacer"></span>
+    </mat-toolbar>
+  </p>
+  <div class="mdc-layout-grid__inner">
+    teste
+    <div class="mdc-layout-grid__cell">
+      <div class="mdc-layout-grid__inner">
+        teste
+        <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+        <div class="mdc-layout-grid__cell"><span>Second level</span></div>
+      </div>
+    </div>
+    <div class="mdc-layout-grid__cell">First level</div>
+    <div class="mdc-layout-grid__cell">First level</div>
+  </div>
+</div>
+<!-- <app-cadastro-produtos></app-cadastro-produtos> -->
 <router-outlet></router-outlet>

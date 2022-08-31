@@ -16,6 +16,9 @@ import { CadastroProdutosComponent } from './cadastro-produtos/cadastro-produtos
     CommonModule,
     ImportsMaterialModule,
     SharedModule
+  ],
+  exports:[
+    CadastroProdutosComponent
   ]
 })
 export class ProdutosModule { }
