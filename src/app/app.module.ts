@@ -12,11 +12,13 @@ import { ProdutosModule } from './produtos/produtos.module';
 import { ImportsMaterialModule } from './shared/imports-material/imports-material.module';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { CabecalhoModule } from './cabecalho/cabecalho.module';
+import { GridListMenuLateralComponent } from './grid-list-menu-lateral/grid-list-menu-lateral.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    GridListMenuLateralComponent
   ],
   imports: [
     BrowserModule,

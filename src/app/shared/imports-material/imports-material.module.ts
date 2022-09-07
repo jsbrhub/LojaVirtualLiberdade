@@ -21,7 +21,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatIconModule,
     MatDialogModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
   ],
 
 })
