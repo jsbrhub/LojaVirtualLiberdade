@@ -13,6 +13,7 @@ import { ImportsMaterialModule } from './shared/imports-material/imports-materia
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { CabecalhoModule } from './cabecalho/cabecalho.module';
 import { GridListMenuLateralComponent } from './grid-list-menu-lateral/grid-list-menu-lateral.component';
+import { GridListMenuLateralModule } from './grid-list-menu-lateral/grid-list-menu-lateral.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { GridListMenuLateralComponent } from './grid-list-menu-lateral/grid-list
     RouterOutlet,
     ProdutosModule,
     ImportsMaterialModule,
-    CabecalhoModule
+    CabecalhoModule,
+    GridListMenuLateralModule,
+    ProdutosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
